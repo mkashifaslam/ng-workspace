@@ -1,0 +1,31 @@
+{
+  "name": "my-toolbox-server",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/my-toolbox-server/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "my-toolbox-server:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "my-toolbox-server:build:development"
+        },
+        "production": {
+          "buildTarget": "my-toolbox-server:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/my-toolbox-server/jest.config.ts"
+      }
+    }
+  }
+}

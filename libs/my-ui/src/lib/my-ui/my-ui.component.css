@@ -1,0 +1,10 @@
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 15px;
+  background-color: hsla(214, 62%, 21%, 1);
+  border: 1px solid darkgreen;
+}

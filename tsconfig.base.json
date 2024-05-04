@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ng-workspace/my-lib": ["libs/my-lib/src/index.ts"],
+      "@ng-workspace/my-ui": ["libs/my-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
