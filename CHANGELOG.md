@@ -1,3 +1,14 @@
+## 0.3.0 (2024-05-04)
+
+
+### 🚀 Features
+
+- **server:** add readme file ([efbd580](https://github.com/mkashifaslam/ng-workspace/commit/efbd580))
+
+### ❤️  Thank You
+
+- Muhammad Kashif @mkashifaslam
+
 ## 0.2.0 (2024-05-04)
 
 
